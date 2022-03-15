@@ -1,0 +1,39 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": [
+    "env.d.ts",
+    "app_client/**/*.ts",
+    "app_client/**/*.d.ts",
+    "app_client/**/*.vue",
+    "resources/scripts/inertia.ts",
+    "./resources/**.*.ts"
+  ],
+  "exclude": [
+    "src/**/__tests__/*"
+  ],
+  "compilerOptions": {
+    "lib": [
+      "es2018",
+      "dom",
+      "esnext"
+    ],
+    "target": "ESNext",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "./app_client/*"
+      ]
+    },
+    "types": [
+      "vite/client",
+    ]
+  },
+  "references": [
+    {
+      "path": "./tsconfig.vite-config.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ]
+}

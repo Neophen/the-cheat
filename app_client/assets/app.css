@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+
+  /* min-width: 273px; */
+  /* min-height: 64px; */
+
+  background: linear-gradient(270deg, #fb8500 0%, #ffb703 100%);
+  color: white;
+  border-radius: 62px;
+}

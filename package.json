@@ -1,0 +1,80 @@
+{
+    "private": false,
+    "name": "the-cheat",
+    "description": "the easy way to create and manage print ready cheat sheets",
+    "version": "0.0.1",
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Neophen/the-cheat.git"
+    },
+    "keywords": [
+        "Vue",
+        "js",
+        "Laravel",
+        "Inertia",
+        "js",
+        "Tailwind",
+        "CSS",
+        "Typescript"
+    ],
+    "author": "Mykolas Mankevicius",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Neophen/the-cheat/issues"
+    },
+    "homepage": "https://github.com/Neophen/the-cheat#readme",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "dependencies": {
+        "@headlessui/vue": "^1.5.0",
+        "@heroicons/vue": "^1.0.6",
+        "@inertiajs/inertia": "^0.11.0",
+        "@inertiajs/inertia-vue3": "^0.6.0",
+        "@inertiajs/progress": "^0.2.7",
+        "@vueuse/core": "^7.7.1",
+        "@vueuse/head": "^0.7.5",
+        "axios": "^0.26.1",
+        "highlight.js": "^11.5.0",
+        "markdown-it": "^12.3.2",
+        "mitt": "^3.0.0",
+        "pinia": "^2.0.12",
+        "vue": "^3.2.31"
+    },
+    "devDependencies": {
+        "@interactjs/types": "^1.10.11",
+        "@rushstack/eslint-patch": "^1.1.1",
+        "@tailwindcss/aspect-ratio": "^0.4.0",
+        "@tailwindcss/forms": "^0.4.1",
+        "@tailwindcss/line-clamp": "^0.3.1",
+        "@tailwindcss/typography": "^0.5.2",
+        "@types/jsdom": "^16.2.14",
+        "@types/markdown-it": "^12.2.3",
+        "@types/node": "^17.0.21",
+        "@vitejs/plugin-vue": "^2.2.4",
+        "@vue/eslint-config-prettier": "^7.0.0",
+        "@vue/eslint-config-typescript": "^10.0.0",
+        "@vue/test-utils": "^2.0.0-rc.17",
+        "@vue/tsconfig": "^0.1.3",
+        "@vuedx/typescript-plugin-vue": "^0.7.4",
+        "autoprefixer": "^10.4.3",
+        "cross-env": "^7.0.3",
+        "eslint": "^8.11.0",
+        "eslint-plugin-cypress": "^2.12.1",
+        "eslint-plugin-vue": "^8.5.0",
+        "jsdom": "^19.0.0",
+        "pnpm": "^6.32.3",
+        "postcss": "^8.4.11",
+        "prettier": "^2.5.1",
+        "prettier-plugin-tailwindcss": "^0.1.8",
+        "tailwindcss": "^3.0.23",
+        "typescript": "^4.6.2",
+        "unplugin-auto-import": "^0.6.6",
+        "vite": "^2.8.6",
+        "vue-tsc": "^0.31.4"
+    }
+}

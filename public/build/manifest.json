@@ -1,0 +1,112 @@
+{
+  "app_client/app.ts": {
+    "file": "assets/app.038cd7bb.js",
+    "src": "app_client/app.ts",
+    "isEntry": true,
+    "imports": [
+      "_vendor.5936ec8c.js"
+    ],
+    "dynamicImports": [
+      "app_client/pages/BetaSuccess.vue",
+      "app_client/pages/CheatSheetsCreate.vue",
+      "app_client/pages/CheatSheetsIndex.vue",
+      "app_client/pages/CheatSheetsShow.vue",
+      "app_client/pages/LandingPageIndex.vue",
+      "app_client/pages/NewsletterIndex.vue"
+    ],
+    "css": [
+      "assets/app.afba2ab0.css"
+    ],
+    "assets": [
+      "assets/icons.8468f291.svg"
+    ]
+  },
+  "_vendor.5936ec8c.js": {
+    "file": "assets/vendor.5936ec8c.js"
+  },
+  "app_client/pages/BetaSuccess.vue": {
+    "file": "assets/BetaSuccess.18da4f57.js",
+    "src": "app_client/pages/BetaSuccess.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_public.f32aeab2.js",
+      "_hero_title.3a8ba0b7.js",
+      "_vendor.5936ec8c.js",
+      "app_client/app.ts"
+    ]
+  },
+  "_public.f32aeab2.js": {
+    "file": "assets/public.f32aeab2.js",
+    "imports": [
+      "app_client/app.ts",
+      "_vendor.5936ec8c.js"
+    ]
+  },
+  "_hero_title.3a8ba0b7.js": {
+    "file": "assets/hero_title.3a8ba0b7.js"
+  },
+  "app_client/pages/CheatSheetsCreate.vue": {
+    "file": "assets/CheatSheetsCreate.79dc4cef.js",
+    "src": "app_client/pages/CheatSheetsCreate.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.5936ec8c.js",
+      "_BaseButton.2899af70.js",
+      "app_client/app.ts",
+      "_BaseCard.4933b9a1.js"
+    ]
+  },
+  "_BaseButton.2899af70.js": {
+    "file": "assets/BaseButton.2899af70.js",
+    "imports": [
+      "_vendor.5936ec8c.js"
+    ]
+  },
+  "_BaseCard.4933b9a1.js": {
+    "file": "assets/BaseCard.4933b9a1.js",
+    "imports": [
+      "_vendor.5936ec8c.js"
+    ]
+  },
+  "app_client/pages/CheatSheetsIndex.vue": {
+    "file": "assets/CheatSheetsIndex.258820f5.js",
+    "src": "app_client/pages/CheatSheetsIndex.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_BaseButton.2899af70.js",
+      "app_client/app.ts",
+      "_vendor.5936ec8c.js",
+      "_BaseCard.4933b9a1.js"
+    ]
+  },
+  "app_client/pages/CheatSheetsShow.vue": {
+    "file": "assets/CheatSheetsShow.a13c721c.js",
+    "src": "app_client/pages/CheatSheetsShow.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_BaseButton.2899af70.js",
+      "_vendor.5936ec8c.js"
+    ]
+  },
+  "app_client/pages/LandingPageIndex.vue": {
+    "file": "assets/LandingPageIndex.191cc3fe.js",
+    "src": "app_client/pages/LandingPageIndex.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_public.f32aeab2.js",
+      "_vendor.5936ec8c.js",
+      "_hero_title.3a8ba0b7.js",
+      "app_client/app.ts"
+    ]
+  },
+  "app_client/pages/NewsletterIndex.vue": {
+    "file": "assets/NewsletterIndex.d228291a.js",
+    "src": "app_client/pages/NewsletterIndex.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_public.f32aeab2.js",
+      "_vendor.5936ec8c.js",
+      "app_client/app.ts"
+    ]
+  }
+}

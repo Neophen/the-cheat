@@ -1,0 +1,1 @@
+import{d as s,o as t,a as o,E as d,n as l}from"./vendor.5936ec8c.js";const c=s({props:{sticky:{type:Boolean,default:!1},padded:{type:Boolean,default:!1}},setup(e){return(a,n)=>(t(),o("div",{class:l(["flex-shrink-0 rounded-md bg-white shadow",{"sticky top-4":e.sticky,"p-4":e.padded}])},[d(a.$slots,"default")],2))}});export{c as _};

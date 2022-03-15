@@ -1,0 +1,1 @@
+import{_ as a}from"./app.038cd7bb.js";import{d as s,o,a as t,b as r,E as n,e as c,F as l}from"./vendor.5936ec8c.js";const _={class:"h-full"},i=s({setup(m){return(e,p)=>(o(),t(l,null,[r("main",_,[n(e.$slots,"default")]),c(a)],64))}});export{i as _};
